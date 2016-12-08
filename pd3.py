@@ -1,5 +1,5 @@
 # JOKE GENERATOR V1.1
-# MADE BY p0isonedpanda
+# INITIALY CREATED BY p0isonedpanda
 
 import random
 import os
@@ -63,6 +63,8 @@ while i == True:
 	if joke == 1:
 		print j1
 		print "-" *10
+		#necessary to separate the punch lines of the jokes so the User 
+		#does not automatically see the Joke and punchline together
 		print j2
 		print "-" * 10
 		print j3
